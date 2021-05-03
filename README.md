@@ -1,5 +1,5 @@
 # Express gql
-Repo is intended to be used as an example of one approach to instrumenting Sentry's performance feature into and express gql backend. 
+Repo is intended to be used as an example of one approach to instrumenting Sentry's performance feature into an express gql backend. 
 
 # Node version
 
