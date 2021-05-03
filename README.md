@@ -22,9 +22,10 @@ Alternatively, you can include the following JSON body in postman to name your t
 ```{"operationName":"MyQueryName","query":"query MyQueryName{tools{sku name price}}"}```
 
 # Performance Dashboard
-Transaction categories will use the operation name you specify or default to `GraphQLTransaction` if none is supplied. GQL resolvers are be captured in span level detail thanks to lifecycle hooks in `plugin.ts`.
+Transaction categories will use the operation name you specify or default to `GraphQLTransaction` if none is supplied. GQL resolvers are captured in span level detail thanks to lifecycle hooks in `plugin.ts`.
 
 ![Sentry gql performance dashboard](./screenshots/dashboard.png )
+![gql browser client](./screenshots/spanDetail.png )
 
 
 # Future work
